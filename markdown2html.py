@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 ''' Write a script markdown2html.py that takes an argument 2 strings:
+
     First argument is the name of the Markdown file
     Second argument is the output file name
 '''
@@ -94,4 +95,3 @@ if __name__ == '__main__':
                 html.write('</ol>\n')
             if paragraph:
                 html.write('</p>\n')
-    exit (0)
